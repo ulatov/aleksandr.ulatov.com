@@ -1,0 +1,20 @@
+{
+  "name": "site-aleksandr-ulatov-com",
+  "version": "1.0.0",
+  "description": "11ty based :)",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-as-ulatov:ulatov/site-aleksandr.ulatov.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
