@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>a site | 404</title>
+  <title>{{title}}</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <!--
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
@@ -14,12 +14,15 @@
   <header>
     SITE TITLE
     <nav>
-      <ul><li><a href="/">Home</a> </li><li><a href="/learn/">Learn</a> </li><li><a href="/contacts/">Contacts</a> </li><li><a href="/about/">About</a> </li></ul>
+      <ul>
+      {%- for mainmenuitem in collections.mainmenu -%}
+        <li{% if page.url == mainmenuitem.url %} class="active"{% endif %}><a href="{{mainmenuitem.url}}">{{ mainmenuitem.data.name }}</a> {% if page.url == mainmenuitem.url %} + {% endif %}</li>
+      {%- endfor -%}
+      </ul>
     </nav>
   </header>
   <main>
-    <h1>404 error</h1>
-
+    {{content}}
   </main>
   <footer>
   some text in the footer (c) 2020
