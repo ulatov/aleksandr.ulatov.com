@@ -9,4 +9,6 @@ date: 2020-01-02
 
 # self-studying
 
-for example - <a href="fcc">fcc</a>
+## <a href="fcc">FCC</a>
+
+## <a href="english">English</a>
