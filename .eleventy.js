@@ -1,23 +1,15 @@
-/*
-module.exports = {
-    dir: {
-      input: "dev-site",
-      output: "docs"
-    }
-  };
-*/
 
 module.exports = function(eleventyConfig) {
-  /*
+  
   eleventyConfig.setTemplateFormats([
+    "md",
+    "njk",
+    "html",
     "jpg",
-    "css",  // css is not yet a recognized template extension in Eleventy
+    "css", 
     "CNAME"
   ]);
-  */
-  eleventyConfig.addPassthroughCopy("*.jpg");
-  eleventyConfig.addPassthroughCopy("*.css");
-  eleventyConfig.addPassthroughCopy("CNAME");
+  
   return {
     dir: {
       input: "dev-site",
@@ -26,4 +18,5 @@ module.exports = function(eleventyConfig) {
     },
     passthroughFileCopy: true
   };
+
 };
