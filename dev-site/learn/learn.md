@@ -6,14 +6,14 @@ tags: mainmenu
 date: 2020-01-04
 ---
 
-# self-studying
+## self-studying
 
-## [FCC](fcc)
+### [FCC](fcc)
 
-## [Grasshopper](grasshopper)
+### [Grasshopper](grasshopper)
 
-## [Sololearn](sololearn)
+### [Sololearn](sololearn)
 
-## [Udemy](udemy)
+### [Udemy](udemy)
 
-## [English](english)
+### [English](english)

@@ -4,16 +4,16 @@ layout: lo/html
 name: Responsive Web Design Certification
 ---
 
-# Responsive Web Design Certification
+## Responsive Web Design Certification
 
-## Responsive Web Design Projects
+### Responsive Web Design Projects
 
-### [Build a Tribute Page](TributePage">link)
+#### [Build a Tribute Page](TributePage">link)
 
-### [Build a Survey Form](SurveyForm)
+#### [Build a Survey Form](SurveyForm)
 
-### [Build a Product Landing Page](ProductLandingPage)
+#### [Build a Product Landing Page](ProductLandingPage)
 
-### [Build a Technical Documentation Page](TechnicalDocumentationPage)
+#### [Build a Technical Documentation Page](TechnicalDocumentationPage)
 
-### [Build a Personal Portfolio Webpage](PersonalPortfolioWebpage)
+#### [Build a Personal Portfolio Webpage](PersonalPortfolioWebpage)
