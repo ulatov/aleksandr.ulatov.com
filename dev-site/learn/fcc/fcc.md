@@ -5,7 +5,7 @@ name: Free Code Camp
 ---
 ## About my classes in FCC
 
-Here is my [fcc profile](https://www.freecodecamp.org/ulatov)
+Here is my [fcc profile](https://www.freecodecamp.org/ulatov). This link should be open in new window or tab but MD don't let it.
 
 ### [Responsive Web Design Certification](ResponsiveWebDesignProjects)
 

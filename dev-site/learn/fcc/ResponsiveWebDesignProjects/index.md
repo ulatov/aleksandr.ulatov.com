@@ -8,7 +8,7 @@ name: Responsive Web Design Certification
 
 ### Responsive Web Design Projects
 
-#### [Build a Tribute Page](TributePage">link)
+#### [Build a Tribute Page](TributePage)
 
 #### [Build a Survey Form](SurveyForm)
 
