@@ -1,1 +1,78 @@
-TributePage.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Design Projects - Build a Tribute Page - Elbert Ainstein</title>
+  <style>
+    #image {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      padding: 5px;
+      background-color:#222;
+      border: 5px solid #333;
+      margin: 5px;
+      border-radius: 50%;
+    }
+
+    #title, #tribute-link {
+      color: #FFF !important;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+</head>
+<body>
+  <div class="jumbotron" id="main">
+    <div class="container bg-secondary rounded text-center">
+      <h1 class="text-primary" id="title">Albert Einstein</h1>
+      <h6 class="text-black-50">"We know so much and understand so little"</h6>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card bg-dark text-white">
+            <div class="card-body text-center" id="img-div">
+              <a href="https://imgkid.com/einstein-tongue-drawing.shtml" target='_blank'>
+                <center>
+                  <!--
+                  <img class="card-image" id="image" src="https://res.cloudinary.com/teepublic/image/private/s--NBGlAe97--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_600,q_90,w_600/v1489819283/production/designs/1332791_1.jpg" alt="He stick the tongue out">
+                  -->
+                  <img class="card-image" id="image" src="ae.jpg" alt="He sticks his tongue out">
+                </center>
+              </a><br><div id="img-caption">E = mc²</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="tribute-info">
+          <br>
+          <p>Here is a part time line of Albert Einstein's life:</p>
+           <div class="list-group text-left">
+             <a href="#" class="list-group-item list-group-item-dark"><strong>Born</strong> 14 March 1879
+  Ulm, Kingdom of Württemberg, German Empire</a>
+             <a href="#" class="list-group-item list-group-item-dark">...</a>
+             <a href="#" class="list-group-item list-group-item-dark"><strong>1921–1922</strong>: Travels abroad</a>
+             <a href="#" class="list-group-item list-group-item-dark"><strong>1930–1931</strong>: Travel to the U.S.</a>
+             <a href="#" class="list-group-item list-group-item-dark"><strong>1933</strong>: Emigration to the U.S.</a>
+             <a href="#" class="list-group-item list-group-item-dark">...</a>
+             <a href="#" class="list-group-item list-group-item-dark"><strong>Died</strong> 18 April 1955 (aged 76)
+  Princeton, New Jersey, U.S.</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <p>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target='_blank' id="tribute-link">Wikipedia entry</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center"><small><a href="/" target='_blank'>Aleksandr Ulatov</a></small></footer>
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+  <script>
+    const projectName = 'tribute-page';
+    localStorage.setItem('example_project', 'Tribute Page');
+  </script>
+</body>
+</html>
