@@ -1,15 +1,17 @@
-
 module.exports = function(eleventyConfig) {
   
   eleventyConfig.setTemplateFormats([
     "md",
     "njk",
     "html",
-    "jpg",
-    "css", 
-    "CNAME"
+    "css",
+    "jpg"
   ]);
-  
+
+  eleventyConfig.addPassthroughCopy("*.jpg");
+  eleventyConfig.addPassthroughCopy("*.css");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
+
   return {
     dir: {
       input: "dev-site",
@@ -18,5 +20,4 @@ module.exports = function(eleventyConfig) {
     },
     passthroughFileCopy: true
   };
-
 };
