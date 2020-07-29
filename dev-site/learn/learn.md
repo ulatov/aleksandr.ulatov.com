@@ -9,12 +9,12 @@ date: 2020-01-04
 
 # self-studying
 
-## <a href="fcc">FCC</a>
+## [FCC](fcc)
 
-## <a href="grasshopper">grasshopper</a>
+## [Grasshopper](grasshopper)
 
-## <a href="sololearn">sololearn</a>
+## [Sololearn](sololearn)
 
-## <a href="udemy">udemy</a>
+## [Udemy](udemy)
 
-## <a href="english">English</a>
+## [English](english)
