@@ -14,8 +14,12 @@ date: 2020-01-04
 
 ### [Sololearn](sololearn)
 
+### [Stepik](stepik)
+
 ### [Udemy](udemy)
+
+### [Udacity](udacity)
 
 ### [English](english)
 
-### https://wesbos.com/courses
+### [WesBos](https://wesbos.com/courses)
